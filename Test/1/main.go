@@ -64,10 +64,12 @@ func difference(slice1, slice2 []int) []int {
 func main() {
 	sliceA := []int{1, 2, 3, 4, 5}
 	sliceB := []int{4, 5, 6, 7, 8}
-
 	fmt.Println("交集:", intersection(sliceA, sliceB))
 	fmt.Println("并集:", union(sliceA, sliceB))
 	fmt.Println("差集 (A - B):", difference(sliceA, sliceB))
 	fmt.Println("差集 (B - A):", difference(sliceB, sliceA))
-
+	// 交集: [4 5]
+	// 并集: [1 2 3 4 5 6 7 8]
+	// 差集 (A - B): [1 2 3]
+	// 差集 (B - A): [6 7 8]
 }
