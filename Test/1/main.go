@@ -55,19 +55,29 @@ func union(slice1, slice2 []int) []int {
 }
 
 // 求差集 (slice1 - slice2)
+// difference 函数用于计算两个整数切片的差集
+// 参数 slice1 和 slice2 分别表示两个整数切片
+// 返回值是一个新的切片，包含在 slice1 中但不在 slice2 中的元素
 func difference(slice1, slice2 []int) []int {
+	// 初始化结果切片，用于存储差集元素
 	result := []int{}
+	// 使用 map 来记录 slice2 中的元素，map 的键为元素值，值为布尔类型
 	set := make(map[int]bool)
 
+	// 遍历 slice2，将每个元素作为键存入 map 中，值为 true
 	for _, v := range slice2 {
 		set[v] = true
 	}
 
+	// 遍历 slice1，检查每个元素是否在 map 中
 	for _, v := range slice1 {
+		// 如果元素不在 map 中，说明该元素不在 slice2 中
 		if !set[v] {
+			// 将该元素添加到结果切片中
 			result = append(result, v)
 		}
 	}
+	// 返回结果切片，即差集
 	return result
 }
 

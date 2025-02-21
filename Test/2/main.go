@@ -37,5 +37,5 @@ func Handle() int {
 }
 
 func main() {
-
+	Handle()
 }
