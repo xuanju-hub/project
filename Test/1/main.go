@@ -2,23 +2,33 @@ package main
 
 import (
 	"fmt"
+	"slices"
 )
 
 // 求交集
+// 定义一个函数intersection，用于找出两个整数切片的交集
 func intersection(slice1, slice2 []int) []int {
+    // 初始化一个空的整数切片result，用于存储交集结果
 	result := []int{}
+    // 初始化一个map，用于存储slice1中的元素，map的键为整数，值为布尔类型
 	set := make(map[int]bool)
 
+    // 遍历slice1中的每个元素
 	for _, v := range slice1 {
+        // 将slice1中的元素作为键存入map中，值为true，表示该元素存在于slice1中
 		set[v] = true
 	}
 
+    // 遍历slice2中的每个元素
 	for _, v := range slice2 {
+        // 检查当前元素是否存在于map中，即是否也在slice1中
 		if set[v] {
+            // 如果存在，则将该元素添加到result切片中
 			result = append(result, v)
 		}
 	}
 
+    // 返回结果切片result，即两个切片的交集
 	return result
 }
 
@@ -68,6 +78,7 @@ func main() {
 	fmt.Println("并集:", union(sliceA, sliceB))
 	fmt.Println("差集 (A - B):", difference(sliceA, sliceB))
 	fmt.Println("差集 (B - A):", difference(sliceB, sliceA))
+	slices.Sort(sliceA)
 	// 交集: [4 5]
 	// 并集: [1 2 3 4 5 6 7 8]
 	// 差集 (A - B): [1 2 3]

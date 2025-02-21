@@ -3,55 +3,6 @@
   <component name="GoORMHelperCache">
     <option name="schemaMapping">
       <map>
-        <entry key="BaseOperator">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/DesignPattern/work3.go" />
-            </set>
-          </value>
-        </entry>
-        <entry key="CnPrinter">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/DesignPattern/work2.go" />
-            </set>
-          </value>
-        </entry>
-        <entry key="EnPrinter">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/DesignPattern/work2.go" />
-            </set>
-          </value>
-        </entry>
-        <entry key="OperatorAdd">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/DesignPattern/work3.go" />
-            </set>
-          </value>
-        </entry>
-        <entry key="OperatorAddFactory">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/DesignPattern/work3.go" />
-            </set>
-          </value>
-        </entry>
-        <entry key="OperatorMult">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/DesignPattern/work3.go" />
-            </set>
-          </value>
-        </entry>
-        <entry key="OperatorMultFactory">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/DesignPattern/work3.go" />
-            </set>
-          </value>
-        </entry>
         <entry key="Package">
           <value>
             <set>
@@ -64,7 +15,6 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/leetcode/1740/main.go" />
-              <option value="file://$PROJECT_DIR$/work1.go" />
             </set>
           </value>
         </entry>
@@ -75,74 +25,10 @@
             </set>
           </value>
         </entry>
-        <entry key="pak">
-          <value>
-            <set>
-              <option value="file://$PROJECT_DIR$/HW/1488/main.go" />
-            </set>
-          </value>
-        </entry>
       </map>
     </option>
     <option name="scannedPathMapping">
       <map>
-        <entry key="file://$PROJECT_DIR$/DesignPattern/Test/1.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1735556149154" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/DesignPattern/Test/2.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1734576122184" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/DesignPattern/work2.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1730797575419" />
-              <option name="schema">
-                <list>
-                  <option value="CnPrinter" />
-                  <option value="EnPrinter" />
-                </list>
-              </option>
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/DesignPattern/work3.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1730801494188" />
-              <option name="schema">
-                <list>
-                  <option value="BaseOperator" />
-                  <option value="OperatorAddFactory" />
-                  <option value="OperatorAdd" />
-                  <option value="OperatorMultFactory" />
-                  <option value="OperatorMult" />
-                </list>
-              </option>
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/DesignPattern/work4.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1730800890710" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/HW/1/main.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1739358039877" />
-            </ScannedPath>
-          </value>
-        </entry>
         <entry key="file://$PROJECT_DIR$/HW/1411/main.go">
           <value>
             <ScannedPath>
@@ -237,14 +123,7 @@
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/HW/2/main.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1739364593443" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/HW/2024.01.24/main.go">
+        <entry key="file://$PROJECT_DIR$/HW/1557/main.go">
           <value>
             <ScannedPath>
               <option name="lastModified" value="1739361657664" />
@@ -254,21 +133,21 @@
         <entry key="file://$PROJECT_DIR$/Test/1/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739685844695" />
+              <option name="lastModified" value="1740042543804" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/Test/2/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739614131703" />
+              <option name="lastModified" value="1739784317506" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/Test/3/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739708348560" />
+              <option name="lastModified" value="1739772361245" />
               <option name="schema">
                 <list>
                   <option value="field" />
@@ -289,41 +168,15 @@
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/work1.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1735870342818" />
-              <option name="schema">
-                <list>
-                  <option value="TreeNode" />
-                </list>
-              </option>
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/work2.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1735898270457" />
-            </ScannedPath>
-          </value>
-        </entry>
       </map>
     </option>
     <option name="tableStructMapping">
       <map>
-        <entry key="base_operator" value="BaseOperator" />
-        <entry key="cn_printer" value="CnPrinter" />
-        <entry key="en_printer" value="EnPrinter" />
         <entry key="field" value="field" />
-        <entry key="operator_add" value="OperatorAdd" />
-        <entry key="operator_add_factory" value="OperatorAddFactory" />
-        <entry key="operator_mult" value="OperatorMult" />
-        <entry key="operator_mult_factory" value="OperatorMultFactory" />
         <entry key="package" value="Package" />
         <entry key="tree_node" value="TreeNode" />
       </map>
     </option>
-    <option name="lastTimeChecked" value="1736131533975" />
+    <option name="lastTimeChecked" value="1739708644017" />
   </component>
 </project>
